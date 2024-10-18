@@ -1,4 +1,5 @@
 # movieWiki
+
 React Movie Explorer with Search and Pagination
 
 This project is a comprehensive movie information app built using React and Axios. It fetches data from a public API, seamlessly displaying details about a wide variety of movies. The core functionality includes an efficient search feature that allows users to find specific movies with ease, and pagination to browse through the extensive movie database smoothly.
