@@ -38,7 +38,7 @@ function MovieDetail() {
         );
 
         setMovie(movieResponse.data);
-        setCastData(castResponse.data.cast); // Store only the cast array
+        setCastData(castResponse.data.cast);
       } catch (error) {
         console.error("Error fetching movie details:", error);
       }

@@ -18,7 +18,7 @@ function Header() {
     <div className="bg-[#33393f] h-36 md:h-28 flex items-center px-6 flex-col gap-3 md:gap-6 xl:flex-row xl:items-center xl:justify-between xl:px-16">
       <div
         className="logo text-xl mt-2 xl:mt-0 xl:text-3xl"
-        onClick={() => navigate("/movies")}
+        onClick={() => navigate("/")}
       >
         MovieDB
       </div>
@@ -26,7 +26,7 @@ function Header() {
         <div className="flex justify-between md:gap-10 items-center xl:gap-8">
           <div
             className="popular hover:underline cursor-pointer"
-            onClick={() => navigate("/movies")}
+            onClick={() => navigate("/")}
           >
             Popular
           </div>
